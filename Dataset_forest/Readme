@@ -1,1 +1,9 @@
+## 📊 Dataset Information
+
+The dataset used in this project was obtained from Kaggle:
+
+**Dataset Name:** Trees in Satellite Imagery  
+**Source:** [Kaggle - Deforestation Detection Dataset](https://www.kaggle.com/datasets/mcagriaksoy/trees-in-satellite-imagery)
+
+This dataset contains satellite images labeled as *Forest[Trees]* and *Deforested[No Trees]* areas in JPEG format.
 
