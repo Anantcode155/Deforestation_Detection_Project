@@ -15,7 +15,7 @@ class_names = [line.strip() for line in open("model/labels.txt", "r").readlines(
 data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
 
 # Load the image
-image_path = "test_images/AnnualCrop_54.jpg"
+image_path = "../test_images/AnnualCrop_54.jpg"
 image = Image.open(image_path).convert("RGB")
 
 # Resize and crop to 224x224
@@ -45,3 +45,4 @@ confidence_score = predictions[index]
 # Print results
 print(f"Class: {class_name}")
 print(f"Confidence Score: {confidence_score:.2f}")
+
