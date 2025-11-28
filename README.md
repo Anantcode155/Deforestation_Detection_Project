@@ -9,6 +9,9 @@ The system takes satellite images of land areas and classifies them into two cat
 
 By analyzing these images, the model can help environmental organizations, researchers, and policymakers monitor forest health and track changes in vegetation over time.
 
+Commad to execute the project:
+>>python main.py
+
 
 🌿 Deforestation Detection using Deep Learning
 
